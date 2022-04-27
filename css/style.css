@@ -1,30 +1,117 @@
 body {
-    background-color: lightgray;
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
+.navbar {
+    background-color: lightgray;
 }
 
-h2 {
-    font-family: 'Lobster', cursive;
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
 }
+
+h1 a {
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+h2 a {
+    font-family: 'Rock Salt', cursive;
+    color: #FFC523;
+    text-decoration: none;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2099B2;
+}
+
 .parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-  
-    /* Set a specific height */
     min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
 
-/*
-font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 3em;
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.bg-beach {
+    background-image: url(/parallax-practice/img/beach_montylov-ktZZiHb-GoI-unsplash.jpg);
+}
+
+.bg-day {
+    background-image: url(/parallax-practice/img/daysky_hakan-toker-BhTgjLZ_v2U-unsplash.jpg);
+}
+
+.bg-petco {
+    background-image: url(/parallax-practice/img/petco_megan-ellis-6C35p33MiQ4-unsplash.jpg);
+}
+
+.bg-rainbow {
+    background-image: url(/parallax-practice/img/rainbow_sophie-emeny-g8_RshvAYCY-unsplash.jpg);
+}
+
+.bg-street {
+    background-image: url(/parallax-practice/img/gaslamp_stephen-leonardi-KtUFXs4LDRw-unsplash.jpg);
+}
+
+.bg-night {
+    background-image: url(/parallax-practice/img/nightsky_lucas-davies-uxIU0kYGu-k-unsplash.jpg);
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    /* font-size: large; */
+    padding: 5px;
+}
+
+.icon {
+    background-color:#FFC523;
+    padding: 7px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:hover {
+    color: #2099B2;
+}
+
+.unsplash a {
+    color: black;
+}
+/* FONTS:
 font-family: 'Open Sans', sans-serif;
+font-family: 'Rock Salt', cursive;
+*/
+
+/* COLORS:
+color: #2B494D; dark teal - did not use
+color: #FFC523; yellow
+color: #2099B2; medium teal
+color: lightgray;
 */
