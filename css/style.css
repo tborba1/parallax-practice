@@ -77,20 +77,41 @@ a:hover {
 
 footer {
     background-color: lightgray;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    /* font-size: large; */
+    padding: 5px;
+}
+
+.icon {
+    background-color:#FFC523;
+    padding: 7px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:hover {
+    color: #2099B2;
 }
 
 .unsplash a {
     color: black;
 }
 /* FONTS:
-font-family: 'Lobster', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Rock Salt', cursive;
 */
 
 /* COLORS:
-color: #2B494D; dark teal
+color: #2B494D; dark teal - did not use
 color: #FFC523; yellow
-color: #028762; green
 color: #2099B2; medium teal
+color: lightgray;
 */
