@@ -16,6 +16,10 @@ h1 a {
     text-decoration: none;
 }
 
+h1 a:hover {
+    color: #2099B2;
+}
+
 h2 a {
     font-family: 'Rock Salt', cursive;
     color: #FFC523;
@@ -46,7 +50,7 @@ a:hover {
 .content {
     background-color: rgba(0, 0, 0, .5);
     color: white;
-    padding: 3em;
+    padding: 1em;
     max-width: 50%;
     border-radius: 5px;
 }
@@ -82,7 +86,6 @@ footer {
 
 footer a {
     color: black;
-    /* font-size: large; */
     padding: 5px;
 }
 
@@ -104,6 +107,7 @@ footer a:hover {
 .unsplash a {
     color: black;
 }
+
 /* FONTS:
 font-family: 'Open Sans', sans-serif;
 font-family: 'Rock Salt', cursive;
