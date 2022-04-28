@@ -12,12 +12,8 @@ body {
 
 h1 a {
     font-family: 'Rock Salt', cursive;
-    color: black;
+    color: #FFC523;
     text-decoration: none;
-}
-
-h1 a:hover {
-    color: #2099B2;
 }
 
 h2 a {
@@ -29,10 +25,6 @@ h2 a {
 p a {
     color: white;
     text-decoration: none;
-}
-
-a:hover {
-    color: #2099B2;
 }
 
 .parallax {
@@ -48,7 +40,7 @@ a:hover {
 }
 
 .content {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .3);
     color: white;
     padding: 1em;
     max-width: 50%;
@@ -89,6 +81,10 @@ footer a {
     padding: 5px;
 }
 
+.unsplash a {
+    color: black;
+}
+
 .icon {
     background-color:#FFC523;
     padding: 7px;
@@ -100,13 +96,37 @@ footer a {
     align-items: center;
 }
 
-footer a:hover {
-    color: #2099B2;
+@media only screen and (max-width: 480px) { 
+    h1 a { 
+        font-size: large; 
+    } 
+} 
+
+@media only screen and (max-device-width: 1199px) {
+    h1 a { 
+        font-size: larger; 
+    } 
+    
+    .parallax {
+        background-attachment: scroll;
+    }
 }
 
-.unsplash a {
-    color: black;
-}
+@media only screen and (min-device-width: 1200px) {
+   
+    a:hover {
+        color: #2099B2;
+    }
+
+    footer a:hover {
+        color: #2099B2;
+    }
+
+    .icon:hover {
+        background-color: #2099B2;
+        color: black;
+    }
+  }
 
 /* FONTS:
 font-family: 'Open Sans', sans-serif;
